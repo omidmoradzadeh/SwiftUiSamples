@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUiSamplesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DragGestureBootcamp()
         }
     }
 }

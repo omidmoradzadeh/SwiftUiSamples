@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E7307432A2709A0000578A7 /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7307422A2709A0000578A7 /* HashableBootcamp.swift */; };
 		2EB7F5E22A2489FD000ABBB7 /* SwiftUiSamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB7F5E12A2489FD000ABBB7 /* SwiftUiSamplesApp.swift */; };
 		2EB7F5E42A2489FD000ABBB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB7F5E32A2489FD000ABBB7 /* ContentView.swift */; };
 		2EB7F5E62A2489FE000ABBB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB7F5E52A2489FE000ABBB7 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E7307422A2709A0000578A7 /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
 		2EB7F5DE2A2489FD000ABBB7 /* SwiftUiSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB7F5E12A2489FD000ABBB7 /* SwiftUiSamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiSamplesApp.swift; sourceTree = "<group>"; };
 		2EB7F5E32A2489FD000ABBB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				2ED943E52A267CDE00C4B4CF /* SoundsBootcamp.swift */,
 				2ED943EC2A26820900C4B4CF /* HapticBootcamp.swift */,
 				2ED943EE2A268F8B00C4B4CF /* LocalNotificationBootcamp.swift */,
+				2E7307422A2709A0000578A7 /* HashableBootcamp.swift */,
 			);
 			path = SwiftUiSamples;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E7307432A2709A0000578A7 /* HashableBootcamp.swift in Sources */,
 				2ED943E62A267CDE00C4B4CF /* SoundsBootcamp.swift in Sources */,
 				2EB7F5F82A249BBB000ABBB7 /* DragGestureBootcamp2.swift in Sources */,
 				2ED943E42A2673AC00C4B4CF /* MaskBootcamp.swift in Sources */,

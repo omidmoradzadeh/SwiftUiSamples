@@ -31,6 +31,7 @@
 		2ED943EB2A267F8300C4B4CF /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2ED943EA2A267F8300C4B4CF /* badum.mp3 */; };
 		2ED943ED2A26820900C4B4CF /* HapticBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED943EC2A26820900C4B4CF /* HapticBootcamp.swift */; };
 		2ED943EF2A268F8B00C4B4CF /* LocalNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED943EE2A268F8B00C4B4CF /* LocalNotificationBootcamp.swift */; };
+		2EDE2E732A2A8B8C0020822B /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDE2E722A2A8B8C0020822B /* BackgroundThreadBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		2ED943EA2A267F8300C4B4CF /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
 		2ED943EC2A26820900C4B4CF /* HapticBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticBootcamp.swift; sourceTree = "<group>"; };
 		2ED943EE2A268F8B00C4B4CF /* LocalNotificationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBootcamp.swift; sourceTree = "<group>"; };
+		2EDE2E722A2A8B8C0020822B /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				2EB521C42A27C65F003A7E32 /* FruitsContrainer.xcdatamodeld */,
 				2EAF52E62A27D43C00A894C3 /* CoreDataRelationBootcamp.swift */,
 				2EAF52E82A27D63100A894C3 /* CoreDataContainer.xcdatamodeld */,
+				2EDE2E722A2A8B8C0020822B /* BackgroundThreadBootcamp.swift */,
 			);
 			path = SwiftUiSamples;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				2E7307432A2709A0000578A7 /* HashableBootcamp.swift in Sources */,
 				2ED943E62A267CDE00C4B4CF /* SoundsBootcamp.swift in Sources */,
 				2EB7F5F82A249BBB000ABBB7 /* DragGestureBootcamp2.swift in Sources */,
+				2EDE2E732A2A8B8C0020822B /* BackgroundThreadBootcamp.swift in Sources */,
 				2EB521C32A27C4F5003A7E32 /* CoreDataBootcamp.swift in Sources */,
 				2ED943E42A2673AC00C4B4CF /* MaskBootcamp.swift in Sources */,
 				2EB7F5F62A249827000ABBB7 /* DragGestureBootcamp.swift in Sources */,

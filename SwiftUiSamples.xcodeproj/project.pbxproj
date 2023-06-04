@@ -14,6 +14,8 @@
 		2E8828372A2B77E1007F5871 /* TypeAlisaBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8828362A2B77E1007F5871 /* TypeAlisaBootcamp.swift */; };
 		2E8828392A2B7BF4007F5871 /* EscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8828382A2B7BF4007F5871 /* EscapingBootcamp.swift */; };
 		2E88283B2A2B9E27007F5871 /* CodableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E88283A2A2B9E27007F5871 /* CodableBootcamp.swift */; };
+		2E8A2C292A2D10CA00111CEC /* SubscriberBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8A2C282A2D10CA00111CEC /* SubscriberBootcamp.swift */; };
+		2E8A2C2B2A2D158000111CEC /* SubscriberMainBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8A2C2A2A2D158000111CEC /* SubscriberMainBootcamp.swift */; };
 		2E8F5BC92A2C7E3500F55A92 /* DownloadJsonWithEscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F5BC82A2C7E3500F55A92 /* DownloadJsonWithEscapingBootcamp.swift */; };
 		2E8F5BCB2A2C8A6600F55A92 /* DownloadJsonWithCombineBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F5BCA2A2C8A6600F55A92 /* DownloadJsonWithCombineBootcamp.swift */; };
 		2EAF52E72A27D43C00A894C3 /* CoreDataRelationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF52E62A27D43C00A894C3 /* CoreDataRelationBootcamp.swift */; };
@@ -49,6 +51,8 @@
 		2E8828362A2B77E1007F5871 /* TypeAlisaBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlisaBootcamp.swift; sourceTree = "<group>"; };
 		2E8828382A2B7BF4007F5871 /* EscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingBootcamp.swift; sourceTree = "<group>"; };
 		2E88283A2A2B9E27007F5871 /* CodableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBootcamp.swift; sourceTree = "<group>"; };
+		2E8A2C282A2D10CA00111CEC /* SubscriberBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBootcamp.swift; sourceTree = "<group>"; };
+		2E8A2C2A2A2D158000111CEC /* SubscriberMainBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberMainBootcamp.swift; sourceTree = "<group>"; };
 		2E8F5BC82A2C7E3500F55A92 /* DownloadJsonWithEscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadJsonWithEscapingBootcamp.swift; sourceTree = "<group>"; };
 		2E8F5BCA2A2C8A6600F55A92 /* DownloadJsonWithCombineBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadJsonWithCombineBootcamp.swift; sourceTree = "<group>"; };
 		2EAF52E62A27D43C00A894C3 /* CoreDataRelationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationBootcamp.swift; sourceTree = "<group>"; };
@@ -138,6 +142,8 @@
 				2E8F5BC82A2C7E3500F55A92 /* DownloadJsonWithEscapingBootcamp.swift */,
 				2E8F5BCA2A2C8A6600F55A92 /* DownloadJsonWithCombineBootcamp.swift */,
 				2E8616DA2A2C999900C0298C /* TimerBootcamp.swift */,
+				2E8A2C282A2D10CA00111CEC /* SubscriberBootcamp.swift */,
+				2E8A2C2A2A2D158000111CEC /* SubscriberMainBootcamp.swift */,
 			);
 			path = SwiftUiSamples;
 			sourceTree = "<group>";
@@ -236,12 +242,14 @@
 				2ED943E62A267CDE00C4B4CF /* SoundsBootcamp.swift in Sources */,
 				2EB7F5F82A249BBB000ABBB7 /* DragGestureBootcamp2.swift in Sources */,
 				2EDE2E732A2A8B8C0020822B /* BackgroundThreadBootcamp.swift in Sources */,
+				2E8A2C2B2A2D158000111CEC /* SubscriberMainBootcamp.swift in Sources */,
 				2E8F5BCB2A2C8A6600F55A92 /* DownloadJsonWithCombineBootcamp.swift in Sources */,
 				2EB521C32A27C4F5003A7E32 /* CoreDataBootcamp.swift in Sources */,
 				2ED943E42A2673AC00C4B4CF /* MaskBootcamp.swift in Sources */,
 				2EB7F5F62A249827000ABBB7 /* DragGestureBootcamp.swift in Sources */,
 				2EB7F5E42A2489FD000ABBB7 /* ContentView.swift in Sources */,
 				2E8828372A2B77E1007F5871 /* TypeAlisaBootcamp.swift in Sources */,
+				2E8A2C292A2D10CA00111CEC /* SubscriberBootcamp.swift in Sources */,
 				2EAF52E72A27D43C00A894C3 /* CoreDataRelationBootcamp.swift in Sources */,
 				2EAF52EA2A27D63100A894C3 /* CoreDataContainer.xcdatamodeld in Sources */,
 				2E7307452A270F94000578A7 /* ArraysBootcamp.swift in Sources */,

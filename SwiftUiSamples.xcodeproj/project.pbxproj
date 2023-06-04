@@ -13,6 +13,7 @@
 		2E8828372A2B77E1007F5871 /* TypeAlisaBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8828362A2B77E1007F5871 /* TypeAlisaBootcamp.swift */; };
 		2E8828392A2B7BF4007F5871 /* EscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8828382A2B7BF4007F5871 /* EscapingBootcamp.swift */; };
 		2E88283B2A2B9E27007F5871 /* CodableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E88283A2A2B9E27007F5871 /* CodableBootcamp.swift */; };
+		2E8F5BC92A2C7E3500F55A92 /* DownloadJsonWithEscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F5BC82A2C7E3500F55A92 /* DownloadJsonWithEscapingBootcamp.swift */; };
 		2EAF52E72A27D43C00A894C3 /* CoreDataRelationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF52E62A27D43C00A894C3 /* CoreDataRelationBootcamp.swift */; };
 		2EAF52EA2A27D63100A894C3 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF52E82A27D63100A894C3 /* CoreDataContainer.xcdatamodeld */; };
 		2EB521C32A27C4F5003A7E32 /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB521C22A27C4F5003A7E32 /* CoreDataBootcamp.swift */; };
@@ -45,6 +46,7 @@
 		2E8828362A2B77E1007F5871 /* TypeAlisaBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlisaBootcamp.swift; sourceTree = "<group>"; };
 		2E8828382A2B7BF4007F5871 /* EscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingBootcamp.swift; sourceTree = "<group>"; };
 		2E88283A2A2B9E27007F5871 /* CodableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBootcamp.swift; sourceTree = "<group>"; };
+		2E8F5BC82A2C7E3500F55A92 /* DownloadJsonWithEscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadJsonWithEscapingBootcamp.swift; sourceTree = "<group>"; };
 		2EAF52E62A27D43C00A894C3 /* CoreDataRelationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationBootcamp.swift; sourceTree = "<group>"; };
 		2EAF52E92A27D63100A894C3 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 		2EB521C22A27C4F5003A7E32 /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				2E8828362A2B77E1007F5871 /* TypeAlisaBootcamp.swift */,
 				2E8828382A2B7BF4007F5871 /* EscapingBootcamp.swift */,
 				2E88283A2A2B9E27007F5871 /* CodableBootcamp.swift */,
+				2E8F5BC82A2C7E3500F55A92 /* DownloadJsonWithEscapingBootcamp.swift */,
 			);
 			path = SwiftUiSamples;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				2EB7F5E22A2489FD000ABBB7 /* SwiftUiSamplesApp.swift in Sources */,
 				2EB7F5FC2A24AE8C000ABBB7 /* GeometryReaderBootcamp.swift in Sources */,
 				2EB7F5FA2A24A400000ABBB7 /* ScrollViewReaderBootcamp.swift in Sources */,
+				2E8F5BC92A2C7E3500F55A92 /* DownloadJsonWithEscapingBootcamp.swift in Sources */,
 				2EB7F5F42A248EC2000ABBB7 /* RotationGestureBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

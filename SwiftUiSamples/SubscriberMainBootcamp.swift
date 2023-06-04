@@ -14,12 +14,14 @@ class SubscriberViewModel2 : ObservableObject {
     @Published var count : Int = 0
     @Published var textFieldText : String = ""
     @Published var textIsValid : Bool = false
+    @Published var showButton : Bool = false
     
     var cancellable = Set<AnyCancellable>()
     
     init(){
         setUpTimer()
         addTextFieldSubscriber()
+        addButtonSubscribert()
     }
     
     func addTextFieldSubscriber(){
@@ -50,6 +52,24 @@ class SubscriberViewModel2 : ObservableObject {
             }
             .store(in: &cancellable)
     }
+    
+    func addButtonSubscribert(){
+        // add second publisher on one item ( $textIsValid , $count )
+        $textIsValid
+            .combineLatest($count)
+            .sink { [weak self] (isValid , count) in
+                guard let self = self else {return}
+                if isValid && count >= 10{
+                    self.showButton = true
+                }
+                else{
+                    self.showButton = false
+                }
+            }
+        // must written
+            .store(in: &cancellable)
+        
+    }
 }
 
 
@@ -75,7 +95,7 @@ struct SubscriberMainBootcamp: View {
                         .foregroundColor(.red)
                         .opacity(
                             vm.textFieldText.count < 1 ? 0 :
-                            vm.textIsValid ? 0 : 1)
+                                vm.textIsValid ? 0 : 1)
                     
                     Image(systemName: "checkmark")
                         .foregroundColor(.green)
@@ -86,6 +106,21 @@ struct SubscriberMainBootcamp: View {
                     .padding(.trailing)
                          , alignment:  .trailing
                 )
+            
+            Button {
+                
+            } label: {
+                Text("Submit".uppercased())
+                    .font(.headline)
+                    .foregroundColor(.white)
+                    .frame(height: 55)
+                    .frame(maxWidth: .infinity)
+                    .background(.blue)
+                    .cornerRadius(10)
+                    .opacity(vm.showButton ? 1.0 : 0.5)
+            }
+            .disabled(!vm.showButton)
+            
         }
         .padding()
     }
